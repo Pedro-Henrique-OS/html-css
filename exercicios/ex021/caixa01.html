@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+            
+            /* 
+            border-width:10px;
+            border-style: solid;
+            border-color: darkslategray;
+            
+            Ou podemos silpificar usando somente border e colocando na ordem os px modo cor. sem preciar de virgula.*/ 
+            border: 10px solid darkslategray;
+
+
+            /* padding-top: 10px;
+               padding-right: 10px;
+               padding-bottom: 10px;
+               padding-left: 10px;
+            Ou podemos silpificar usando somente padding e colocando na ordem os px sem preciar de virgula e sempre colocando na ordem como se fosse um relógio, top right bottom left. */ 
+            padding: 10px 10px 10px 10px;
+            
+
+
+            /*margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto; 
+
+            Ou podemos silpificar usando somente margin e colocando na ordem os px sem preciar de virgula e sempre colocando na ordem como se fosse um relógio, top right bottom left.
+
+            */
+            margin: 20px auto 40px auto ;
+
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            
+            Também simplificado */
+
+            outline: 5px dashed salmon;
+            
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Paragráfos também são exemplos de box level <a href="#"> mas os links são exemplos de caixa inline-level</a> vamos ver como tudo isso funciona. </p>
+</body>
+</html>
